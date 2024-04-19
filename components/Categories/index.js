@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./categories.module.scss";
 import Link from "next/link";
 import HelpIcon from "@/icons/help";

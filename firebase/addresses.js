@@ -15,7 +15,7 @@ const addAddress = ({ title, city, region, zipcode, full_address }) => {
         .update({
           addresses: firebase.firestore.FieldValue.arrayUnion(doc.id),
         })
-        .finally(() => window.location.reload(false)); // reload page
+        .finally(() => window.location.reload(false)); // **reload page
     });
 };
 
@@ -40,7 +40,7 @@ const deleteAddress = ({ id }) => {
         .update({
           addresses: firebase.firestore.FieldValue.arrayRemove(id),
         })
-        .finally(() => window.location.reload(false)); // reload page
+        .finally(() => window.location.reload(false)); // **reload page
     });
 };
 

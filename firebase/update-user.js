@@ -49,10 +49,10 @@ function updatePassword({ currentPassword, newPassword }) {
     return currentUser
       .updatePassword(newPassword)
       .then(function () {
-        // Update successful.
+        // **Update successful.
       })
       .catch(function (error) {
-        // An error happened.
+        // **An error happened.
       });
   };
 

@@ -4,10 +4,10 @@ import styles from "./cart-item.module.scss";
 import { useProduct } from "hooks/product.hook";
 
 export default function CartItem({ id, size, count, onAdd }) {
-  // const address = useAddress(data.address);
-  // const { title, region, city, full_address, zipcode } = address.data;
-  // console.log(new Date(data.date));
-  // console.log(data.date);
+  // **const address = useAddress(data.address);
+  // **const { title, region, city, full_address, zipcode } = address.data;
+  // **console.log(new Date(data.date));
+  // **console.log(data.date);
   const { data } = useProduct(id);
 
   return (
