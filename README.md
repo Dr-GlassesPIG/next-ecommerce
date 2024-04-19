@@ -177,6 +177,6 @@ Distributed under the GPL License. See `LICENSE` for more information.
 
 ## Contact
 
-[@anilsenay](https://twitter.com/anilsenay)
+[@Dr-GlassesPIG](mailto:glassespiger@gmail.com)
 
-Project Link: [https://github.com/anilsenay/next-e-commerce](https://github.com/anilsenay/next-e-commerce)
+Project Link: [https://github.com/Dr-GlassesPIG/next-ecommerce](https://github.com/Dr-GlassesPIG/next-ecommerce)
